@@ -1,0 +1,6 @@
+.img-logo{
+  height: 50px;
+  width: max-content;
+  object-fit: cover;
+  mix-blend-mode: exclusion;
+}
