@@ -12,9 +12,9 @@ const HeaderComp = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-      <NavItem NavName="Home" to={"/"} />
-      <NavItem NavName="About" to={"/about"}/>
-      <NavItem NavName="Contact" to={"/contact"} />
+      <NavItem page="Home" to={"/"} />
+      <NavItem page="About" to={"/about"}/>
+      <NavItem page="Contact" to={"/contact"} />
       </ul>
       <ul className="nav">
         <li className="nav-item"><a href="#" className="nav-link link-body-emphasis px-2">Login</a></li>

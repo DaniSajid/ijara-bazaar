@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom"
 
 
-const NavItem = ({ NavName,to }) => {
+const NavItem = ({ page , to }) => {
   return (
-    <li className="nav-item"><NavLink className="nav-link link-body-emphasis px-2" aria-current="page" to={to}>{NavName}</NavLink></li>
+    <li className="nav-item"><NavLink className="nav-link link-body-emphasis px-2" aria-current="page" to={to}>{page}</NavLink></li>
   )
 }
 
